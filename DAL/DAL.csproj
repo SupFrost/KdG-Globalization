@@ -64,6 +64,10 @@
       <Project>{f5b3ba5b-091d-4eb6-9138-e19842d49e43}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TranslationTier\TranslationTier.csproj">
+      <Project>{97648a0c-06cf-4d97-a272-21bd5dc68416}</Project>
+      <Name>TranslationTier</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
