@@ -1,4 +1,5 @@
-﻿using System;
+﻿using TranslationTier;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -143,7 +144,7 @@ namespace SC.BL
       bool valid = Validator.TryValidateObject(response, new ValidationContext(response), errors, validateAllProperties: true);
 
       if (!valid)
-        throw new ValidationException("TicketResponse not valid!");
+        throw new ValidationException(Resource.TicketResponseNotValid);
     }
   }
 }

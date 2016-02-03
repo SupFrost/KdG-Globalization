@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-CA", "UI-CA\UI-CA.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-MVC", "UI-MVC\UI-MVC.csproj", "{A0B51250-9CFC-4E14-80AD-D28D0D25D9B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationTier", "TranslationTier\TranslationTier.csproj", "{97648A0C-06CF-4D97-A272-21BD5DC68416}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A0B51250-9CFC-4E14-80AD-D28D0D25D9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B51250-9CFC-4E14-80AD-D28D0D25D9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0B51250-9CFC-4E14-80AD-D28D0D25D9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97648A0C-06CF-4D97-A272-21BD5DC68416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97648A0C-06CF-4D97-A272-21BD5DC68416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97648A0C-06CF-4D97-A272-21BD5DC68416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97648A0C-06CF-4D97-A272-21BD5DC68416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
