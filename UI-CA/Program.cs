@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using SC.BL;
 using SC.BL.Domain;
 using SC.UI.CA.ExtensionMethods;
+using TranslationTier;
 
 namespace SC.UI.CA
 {
@@ -27,11 +28,11 @@ namespace SC.UI.CA
       Console.WriteLine("=================================");
       Console.WriteLine("=== HELPDESK - SUPPORT CENTER ===");
       Console.WriteLine("=================================");
-      Console.WriteLine("1) Toon alle tickets");
-      Console.WriteLine("2) Toon details van een ticket");
-      Console.WriteLine("3) Toon de antwoorden van een ticket");
-      Console.WriteLine("4) Maak een nieuw ticket");
-      Console.WriteLine("5) Geef een antwoord op een ticket");
+      Console.WriteLine("1) " + Resource.ViewAllTickets);
+      Console.WriteLine("2) " + Resource.ShowDetailsOfATicket);
+      Console.WriteLine("3) " + Resource.ShowAnswersToATicket);
+      Console.WriteLine("4) " + Resource.CreateANewTicket);
+      Console.WriteLine("5) " + Resource.GiveAnAnswerToATicket);
       Console.WriteLine("6) Markeer ticket als 'Closed'");
       Console.WriteLine("7) Taal");
       Console.WriteLine("0) Afsluiten");
@@ -87,7 +88,15 @@ namespace SC.UI.CA
 
     private static void Actionlanguague()
     {
-      Console.Write("");
+      Console.WriteLine("=================================");
+      Console.WriteLine("=== HELPDESK - SUPPORT CENTER ===");
+      Console.WriteLine("=== " + Resource.Language + " ===");
+      Console.WriteLine("=================================");
+      Console.WriteLine("1) English");
+      Console.WriteLine("2) Nederlands");
+      Console.WriteLine("3) Français");
+      Console.WriteLine("4) Deutsch");
+      Console.WriteLine("0) " + Resource.Exit);
 
       int input = Int32.Parse(Console.ReadLine());
 
