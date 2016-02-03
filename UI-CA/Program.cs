@@ -33,6 +33,7 @@ namespace SC.UI.CA
       Console.WriteLine("4) Maak een nieuw ticket");
       Console.WriteLine("5) Geef een antwoord op een ticket");
       Console.WriteLine("6) Markeer ticket als 'Closed'");
+      Console.WriteLine("7) Taal");
       Console.WriteLine("0) Afsluiten");
       try
       {
@@ -70,6 +71,8 @@ namespace SC.UI.CA
               ActionAddResponseToTicket(); break;
             case 6:
               ActionCloseTicket(); break;
+            case 7:
+              Actionlanguague(); break;
             case 0:
               quit = true;
               return;
@@ -80,6 +83,14 @@ namespace SC.UI.CA
           }
         }
       } while (inValidAction);
+    }
+
+    private static void Actionlanguague()
+    {
+      Console.Write("");
+
+      int input = Int32.Parse(Console.ReadLine());
+
     }
 
     private static void ActionCloseTicket()
