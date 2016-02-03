@@ -120,4 +120,13 @@
   <data name="TicketResponseNotValid" xml:space="preserve">
     <value>TicketResponse not valid!</value>
   </data>
+  <data name="HELPDESKSUPPORTCENTER" xml:space="preserve">
+    <value>=== HELPDESK - SUPPORT CENTER ===</value>
+  </data>
+  <data name="_1ShowAllTickets" xml:space="preserve">
+    <value>1) Show All Tickets</value>
+  </data>
+  <data name="_2ShowDetailsOfATicket" xml:space="preserve">
+    <value>2) Show details of a ticket</value>
+  </data>
 </root>

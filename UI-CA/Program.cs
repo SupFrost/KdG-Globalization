@@ -1,4 +1,5 @@
-﻿using System;
+﻿using TranslationTier;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,10 +26,10 @@ namespace SC.UI.CA
     private static void ShowMenu()
     {
       Console.WriteLine("=================================");
-      Console.WriteLine("=== HELPDESK - SUPPORT CENTER ===");
+      Console.WriteLine(Resource.HELPDESKSUPPORTCENTER);
       Console.WriteLine("=================================");
-      Console.WriteLine("1) Toon alle tickets");
-      Console.WriteLine("2) Toon details van een ticket");
+      Console.WriteLine(Resource._1ShowAllTickets);
+      Console.WriteLine(Resource._2ShowDetailsOfATicket);
       Console.WriteLine("3) Toon de antwoorden van een ticket");
       Console.WriteLine("4) Maak een nieuw ticket");
       Console.WriteLine("5) Geef een antwoord op een ticket");
