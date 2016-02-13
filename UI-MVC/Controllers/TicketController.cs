@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
-
 using SC.BL;
 using SC.BL.Domain;
+
 namespace SC.UI.Web.MVC.Controllers
 {
-    public class TicketController : Controller
+    public class TicketController : BaseController
     {
-        private ITicketManager mgr = new TicketManager();
+        private readonly ITicketManager mgr = new TicketManager();
 
         // GET: Ticket
         public ActionResult Index()
         {
-            IEnumerable<Ticket> tickets = mgr.GetTickets();
+            var tickets = mgr.GetTickets();
             return View(tickets);
         }
 
@@ -47,7 +44,7 @@ namespace SC.UI.Web.MVC.Controllers
             {
                 ticket = mgr.AddTicket(ticket.AccountId, ticket.Text);
 
-                return RedirectToAction("Details", new { id = ticket.TicketNumber });
+                return RedirectToAction("Details", new {id = ticket.TicketNumber});
             }
 
             return View();

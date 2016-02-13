@@ -24,27 +24,7 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-
-                    @{
-                        List<SelectListItem> listItems = new List<SelectListItem>();
-                        listItems.Add(new SelectListItem
-                        {
-                            Text = "Nederlands",
-                            Value = "Nederlands"
-                        });
-                        listItems.Add(new SelectListItem
-                        {
-                            Text = "English",
-                            Value = "English",
-                            Selected = true
-                        });
-                        listItems.Add(new SelectListItem
-                        {
-                            Text = "Français",
-                            Value = "Français"
-                        });
-                    }
-                    <li>@Html.DropDownList("Language", listItems, new {@class = "form-control"})</li>
+                   
 
                     @{
                         
@@ -71,8 +51,10 @@
     });
 
     function SetLanguage() {
-        var Language = $("#Language").value;
 
+
+        var Language = $("#Language").value;
+        ajax.url().data().success().type
     }
 
 

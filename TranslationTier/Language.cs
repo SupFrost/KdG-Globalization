@@ -1,10 +1,15 @@
-﻿using System.Globalization;
+﻿using System.Collections.Generic;
+using System.Globalization;
+using System.Web.Mvc;
 
-namespace TranslationTier
+namespace SC.UI.Web.MVC
 {
-    public class Language
+    public static class Language
     {
-        public static CultureInfo currentCulture;
+        public static string language;
+      
+       
+        public static CultureInfo currentCulture = CultureInfo.CurrentUICulture;
 
         public static void setCulture(string languageCode)
         {
@@ -15,5 +20,7 @@ namespace TranslationTier
         {
             currentCulture = culture;
         }
+
+
     }
 }

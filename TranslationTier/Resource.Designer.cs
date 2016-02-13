@@ -88,6 +88,15 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        public static string Test {
+            get {
+                return ResourceManager.GetString("Test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to TicketResponse not valid!.
         /// </summary>
         public static string TicketResponseNotValid {

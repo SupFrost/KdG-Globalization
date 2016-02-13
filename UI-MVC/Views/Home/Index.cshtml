@@ -1,5 +1,7 @@
-﻿@{
+﻿@using SC.UI.Web.MVC.Helpers
+@{
     ViewBag.Title = "Welkom";
+
 }
 
 <div class="jumbotron">
@@ -15,8 +17,10 @@
     </div>
     <div class="col-md-4">
         <h2>Alle tickets</h2>
-        <p>Toont een lijst van alle bestaande tickets.</p>
-        <p>@Html.ActionLink("Alle tickets", "Index", "Ticket", null, new { @class = "btn btn-default" })</p>
+        <p>Toont een lijst van alle bestaande tickets.
+       @Resource.GetPropertyValue("Test");
+        </p>
+        <p>@Html.ActionLink("Alle tickets", "Index", "Ticket", null, new {@class = "btn btn-default"})</p>
     </div>
     <div class="col-md-4">
         <h2>Toon ticket</h2>
@@ -28,13 +32,6 @@
             </div>
             <input type="submit" value="Toon ticket" class="btn btn-default">
         </form>
-        @*@using (Html.BeginForm("Details", "Ticket", FormMethod.Get, new { @class = "form-inline" }))
-        {
-            <div class="form-group">
-                @Html.Label("id", "Ticketnummer", new { @class = "sr-only" })
-                @Html.TextBox("id", null, new { @class = "form-control" })
-            </div>
-            <input type="submit" value="Toon ticket" class="btn btn-default" />
-        }*@
+     
     </div>
 </div>
