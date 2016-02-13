@@ -61,38 +61,20 @@ namespace TranslationTier {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1) Show All Tickets.
+        ///   Looks up a localized string similar to Exit.
         /// </summary>
-        public static string _1ShowAllTickets {
+        public static string Exit {
             get {
-                return ResourceManager.GetString("_1ShowAllTickets", resourceCulture);
+                return ResourceManager.GetString("Exit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2) Show details of a ticket.
+        ///   Looks up a localized string similar to Language.
         /// </summary>
-        public static string _2ShowDetailsOfATicket {
+        public static string Language {
             get {
-                return ResourceManager.GetString("_2ShowDetailsOfATicket", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to === HELPDESK - SUPPORT CENTER ===.
-        /// </summary>
-        public static string HELPDESKSUPPORTCENTER {
-            get {
-                return ResourceManager.GetString("HELPDESKSUPPORTCENTER", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to English.
-        /// </summary>
-        public static string Test {
-            get {
-                return ResourceManager.GetString("Test", resourceCulture);
+                return ResourceManager.GetString("Language", resourceCulture);
             }
         }
         
