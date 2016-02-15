@@ -1,27 +1,27 @@
 ﻿@using SC.UI.Web.MVC.Helper
 @{
     ViewBag.Title = "Welkom";
-
 }
 
 <div class="jumbotron">
     <h1>SupportCenter</h1>
     <p class="lead">Welkom op het online helpdesk systeem.</p>
 
-    @Html.ActionLink("Nederlands", "Set", "Language", new {lang = "nl"}, null)
-    @Html.ActionLink("English", "Set", "Language", new {lang = "en"}, null)
 </div>
 
 <div class="row">
     <div class="col-md-4">
         <h2>Nieuw ticket</h2>
         <p>Maak een nieuw ticket aan in het systeem.</p>
-        <p><a class="btn btn-default" href="@Url.Action("Create", "Ticket")">Nieuw ticket</a></p>
+        <p>
+            <a class="btn btn-default" href="@Url.Action("Create", "Ticket")">Nieuw ticket</a>
+        </p>
     </div>
     <div class="col-md-4">
         <h2>Alle tickets</h2>
-        <p>Toont een lijst van alle bestaande tickets.
-       @Resource.GetPropertyValue("Test");
+        <p>
+            Toont een lijst van alle bestaande tickets.
+            @Resource.GetPropertyValue("Test");
         </p>
         <p>@Html.ActionLink("Alle tickets", "Index", "Ticket", null, new {@class = "btn btn-default"})</p>
     </div>
@@ -35,6 +35,6 @@
             </div>
             <input type="submit" value="Toon ticket" class="btn btn-default">
         </form>
-     
+
     </div>
 </div>

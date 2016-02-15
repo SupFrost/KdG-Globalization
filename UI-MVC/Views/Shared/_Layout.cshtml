@@ -24,11 +24,14 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                   
 
-                    @{
-                        
-                    }
+
+                    <li>
+
+
+                        @Html.ActionLink("Nederlands", "Set", "Language", new { lang = "nl" }, null)
+                        @Html.ActionLink("English", "Set", "Language", new { lang = "en" }, null)
+                    </li>
                 </ul>
             </div>
         </div>
@@ -44,21 +47,5 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-
-<script>
-    $("#Language").change(function (e) {
-        return SetLanguage();
-    });
-
-    function SetLanguage() {
-
-
-        var Language = $("#Language").value;
-        ajax.url().data().success().type
-    }
-
-
-
-</script>
 </body>
 </html>

@@ -124,7 +124,7 @@
     <value>=== HELPDESK - SUPPORT CENTER ===</value>
   </data>
   <data name="_1ShowAllTickets" xml:space="preserve">
-    <value>1) Show All Tickets</value>
+    <value>1) Toon alle tickets!</value>
   </data>
   <data name="_2ShowDetailsOfATicket" xml:space="preserve">
     <value>2) Show details of a ticket</value>
