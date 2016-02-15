@@ -141,10 +141,34 @@
   <data name="TicketResponseNotValid1" xml:space="preserve">
     <value>Ticket Reactie niet geldig!</value>
   </data>
-  <data name="_1ShowAllTickets1" xml:space="preserve">
-    <value>1) Toon alle tickets</value>
+  <data name="ShowAllTickets1" xml:space="preserve">
+    <value>Toon alle tickets</value>
   </data>
-  <data name="_2ShowDetailsOfATicket1" xml:space="preserve">
-    <value>2) Toon details van een ticket</value>
+  <data name="ShowDetailsOfATicket1" xml:space="preserve">
+    <value>Toon details van een ticket</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Keuze</value>
+  </data>
+  <data name="CreateANewTicket" xml:space="preserve">
+    <value>Maak een nieuw ticket</value>
+  </data>
+  <data name="GiveAnAnswerToATicket" xml:space="preserve">
+    <value>Geef een antwoord op een ticket</value>
+  </data>
+  <data name="MarkTicketAsClosed" xml:space="preserve">
+    <value>Markeer ticket als 'Gesloten'</value>
+  </data>
+  <data name="NoAValidChoice" xml:space="preserve">
+    <value>Geen geldige keuze!</value>
+  </data>
+  <data name="ShowAnswersToATicket" xml:space="preserve">
+    <value>Toon de antwoorden van een ticket</value>
+  </data>
+  <data name="ThereWasAnUnexpectedError" xml:space="preserve">
+    <value>Er heeft zich een onverwachte fout voorgedaan!</value>
+  </data>
+  <data name="TicketNumber" xml:space="preserve">
+    <value>Ticketnummer</value>
   </data>
 </root>

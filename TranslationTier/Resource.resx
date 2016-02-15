@@ -129,11 +129,11 @@
   <data name="HELPDESKSUPPORTCENTER" xml:space="preserve">
     <value>=== HELPDESK - SUPPORT CENTER ===</value>
   </data>
-  <data name="_1ShowAllTickets" xml:space="preserve">
-    <value>1) Show All Tickets</value>
+  <data name="ShowAllTickets" xml:space="preserve">
+    <value>Show All Tickets</value>
   </data>
-  <data name="_2ShowDetailsOfATicket" xml:space="preserve">
-    <value>2) Show details of a ticket</value>
+  <data name="ShowDetailsOfATicket" xml:space="preserve">
+    <value>Show details of a ticket</value>
   </data>
   <data name="Test" xml:space="preserve">
     <value>English</value>
@@ -146,5 +146,29 @@
   </data>
   <data name="LanguageChoice" xml:space="preserve">
     <value>choose your language</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Choice</value>
+  </data>
+  <data name="CreateANewTicket" xml:space="preserve">
+    <value>Create a new ticket</value>
+  </data>
+  <data name="GiveAnAnswerToATicket" xml:space="preserve">
+    <value>Give an answer to a ticket</value>
+  </data>
+  <data name="MarkTicketAsClosed" xml:space="preserve">
+    <value>Mark ticket as 'closed'</value>
+  </data>
+  <data name="NoAValidChoice" xml:space="preserve">
+    <value>No a valid choice!</value>
+  </data>
+  <data name="ShowAnswersToATicket" xml:space="preserve">
+    <value>Show answers to a ticket</value>
+  </data>
+  <data name="ThereWasAnUnexpectedError" xml:space="preserve">
+    <value>There was an unexpected error!</value>
+  </data>
+  <data name="TicketNumber" xml:space="preserve">
+    <value>Ticket number</value>
   </data>
 </root>
