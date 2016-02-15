@@ -1,4 +1,4 @@
-﻿@using SC.UI.Web.MVC.Helpers
+﻿@using SC.UI.Web.MVC.Helper
 @{
     ViewBag.Title = "Welkom";
 
@@ -7,6 +7,9 @@
 <div class="jumbotron">
     <h1>SupportCenter</h1>
     <p class="lead">Welkom op het online helpdesk systeem.</p>
+
+    @Html.ActionLink("Nederlands", "Set", "Language", new {lang = "nl"}, null)
+    @Html.ActionLink("English", "Set", "Language", new {lang = "en"}, null)
 </div>
 
 <div class="row">

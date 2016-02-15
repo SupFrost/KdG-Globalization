@@ -1,12 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Globalization;
-using System.Linq;
 using System.Threading;
-using System.Web.Mvc;
 
-namespace SC.UI.Web.MVC.Helpers
+namespace SC.UI.Web.MVC.Helper
 {
     public class Resource
     {
@@ -19,26 +16,26 @@ namespace SC.UI.Web.MVC.Helpers
         public string Value { get; set; }
 
         #region Helpers
+
         // Probably using reflection not the best approach.
         public static string GetPropertyValue(string propertyName)
         {
             return GetPropertyValue(propertyName, Thread.CurrentThread.CurrentUICulture.Name);
         }
-        public static string GetPropertyValue(string propertyName, string culture) 
+
+        public static string GetPropertyValue(string propertyName, string culture)
         {
-
-
             Resource resource = new Resource
             {
                 Culture = Language.currentCulture.TwoLetterISOLanguageName,
                 Name = propertyName
             };
             resource.Value = TranslationTier.Resource.ResourceManager.GetString(resource.Name);
-        
-                                
+
 
             return resource.Value;
         }
+
         #endregion
     }
 
