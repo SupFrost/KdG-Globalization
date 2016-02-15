@@ -61,20 +61,38 @@ namespace TranslationTier {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1) Show All Tickets.
+        ///   Looks up a localized string similar to Choice.
         /// </summary>
-        public static string _1ShowAllTickets {
+        public static string Choice {
             get {
-                return ResourceManager.GetString("_1ShowAllTickets", resourceCulture);
+                return ResourceManager.GetString("Choice", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2) Show details of a ticket.
+        ///   Looks up a localized string similar to Create a new ticket.
         /// </summary>
-        public static string _2ShowDetailsOfATicket {
+        public static string CreateANewTicket {
             get {
-                return ResourceManager.GetString("_2ShowDetailsOfATicket", resourceCulture);
+                return ResourceManager.GetString("CreateANewTicket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dutch.
+        /// </summary>
+        public static string dutch {
+            get {
+                return ResourceManager.GetString("dutch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        public static string english {
+            get {
+                return ResourceManager.GetString("english", resourceCulture);
             }
         }
         
@@ -84,6 +102,15 @@ namespace TranslationTier {
         public static string Exit {
             get {
                 return ResourceManager.GetString("Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Give an answer to a ticket.
+        /// </summary>
+        public static string GiveAnAnswerToATicket {
+            get {
+                return ResourceManager.GetString("GiveAnAnswerToATicket", resourceCulture);
             }
         }
         
@@ -106,11 +133,83 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to choose your language.
+        /// </summary>
+        public static string LanguageChoice {
+            get {
+                return ResourceManager.GetString("LanguageChoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mark ticket as &apos;closed&apos;.
+        /// </summary>
+        public static string MarkTicketAsClosed {
+            get {
+                return ResourceManager.GetString("MarkTicketAsClosed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No a valid choice!.
+        /// </summary>
+        public static string NoAValidChoice {
+            get {
+                return ResourceManager.GetString("NoAValidChoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show All Tickets.
+        /// </summary>
+        public static string ShowAllTickets {
+            get {
+                return ResourceManager.GetString("ShowAllTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show answers to a ticket.
+        /// </summary>
+        public static string ShowAnswersToATicket {
+            get {
+                return ResourceManager.GetString("ShowAnswersToATicket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show details of a ticket.
+        /// </summary>
+        public static string ShowDetailsOfATicket {
+            get {
+                return ResourceManager.GetString("ShowDetailsOfATicket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English.
         /// </summary>
         public static string Test {
             get {
                 return ResourceManager.GetString("Test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There was an unexpected error!.
+        /// </summary>
+        public static string ThereWasAnUnexpectedError {
+            get {
+                return ResourceManager.GetString("ThereWasAnUnexpectedError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ticket number.
+        /// </summary>
+        public static string TicketNumber {
+            get {
+                return ResourceManager.GetString("TicketNumber", resourceCulture);
             }
         }
         
