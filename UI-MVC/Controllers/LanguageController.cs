@@ -14,7 +14,8 @@ namespace SC.UI.Web.MVC.Controllers
             CultureAttribute.SavePreferredCulture(HttpContext.Response, lang);
 
             // Return to the calling URL (or go to the site's home page)
-            HttpContext.Response.Redirect(HttpContext.Request.UrlReferrer.AbsolutePath);
+            if (HttpContext.Request.UrlReferrer != null)
+                HttpContext.Response.Redirect(HttpContext.Request.UrlReferrer.AbsolutePath);
         }
     }
 }

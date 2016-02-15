@@ -1,4 +1,5 @@
-﻿@model IEnumerable<SC.BL.Domain.Ticket>
+﻿@using SC.UI.Web.MVC.Helper
+@model IEnumerable<SC.BL.Domain.Ticket>
 
 @{
     ViewBag.Title = "Index";
@@ -8,6 +9,9 @@
 
 <p>
     @Html.ActionLink("Create New", "Create")
+
+
+    @Resource.GetPropertyValue("Test");
 </p>
 <table class="table">
     <tr>

@@ -8,8 +8,8 @@ namespace SC.UI.Web.MVC
         public static void RegisterRoutes(RouteCollection routes)
         {
         
-            routes.MapRoute("default", "{culture}/{controller}/{action}/{id}",
-                new {culture = "en-US", controller = "Home", action = "Index", id = UrlParameter.Optional}
+            routes.MapRoute("default", "{controller}/{action}/{id}",
+                new {controller = "Home", action = "Index", id = UrlParameter.Optional}
                 );
         }
     }
