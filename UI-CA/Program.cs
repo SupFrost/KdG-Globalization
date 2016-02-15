@@ -173,7 +173,7 @@ namespace SC.UI.CA
     {
       Console.WriteLine("{0,-15}: {1}", Resource.Ticket, ticket.TicketNumber);
       Console.WriteLine("{0,-15}: {1}", Resource.User, ticket.AccountId);
-      Console.WriteLine("{0,-15}: {1}", Resource.Date, ticket.DateOpened.ToString("dd/MM/yyyy"));
+      Console.WriteLine("{0,-15}: {1}", Resource.Date, ticket.DateOpened.ToString(Thread.CurrentThread.CurrentUICulture.DateTimeFormat));
       Console.WriteLine("{0,-15}: {1}", Resource.State, ticket.State);
 
       if (ticket is HardwareTicket)
