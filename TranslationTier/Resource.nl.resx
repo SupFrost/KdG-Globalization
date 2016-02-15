@@ -171,4 +171,19 @@
   <data name="TicketNumber" xml:space="preserve">
     <value>Ticketnummer</value>
   </data>
+  <data name="cancel" xml:space="preserve">
+    <value>annuleer</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
 </root>
