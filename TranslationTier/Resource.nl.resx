@@ -171,4 +171,7 @@
   <data name="TicketNumber" xml:space="preserve">
     <value>Ticketnummer</value>
   </data>
+  <data name="WelcomeOnlineHelpDesk" xml:space="preserve">
+    <value>Welkom op het online helpdesk systeem.</value>
+  </data>
 </root>
