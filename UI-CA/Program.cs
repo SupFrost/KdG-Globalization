@@ -30,7 +30,8 @@ namespace SC.UI.CA
             Console.WriteLine("4) Maak een nieuw ticket");
             Console.WriteLine("5) Geef een antwoord op een ticket");
             Console.WriteLine("6) Markeer ticket als 'Closed'");
-            Console.WriteLine("0) Afsluiten");
+      Console.WriteLine("7) Taal");
+      Console.WriteLine("0) Afsluiten");
             try
             {
                 DetectMenuAction();
@@ -73,7 +74,10 @@ namespace SC.UI.CA
                         case 6:
                             ActionCloseTicket();
                             break;
-                        case 7:
+            case 7:
+              ActionLanguague();
+              break;
+            case 8:
                             ShowMenu();
                             break;
                         case 0:
@@ -88,7 +92,57 @@ namespace SC.UI.CA
             } while (inValidAction);
         }
 
-        private static void ActionCloseTicket()
+    private static void ActionLanguague()
+    {
+      Console.WriteLine("=================================");
+      Console.WriteLine(Resource.LanguageChoice);
+      Console.WriteLine("=================================");
+      Console.WriteLine("1) " + Resource.dutch);
+      Console.WriteLine("2) " + Resource.english);
+      Console.WriteLine("0) Afsluiten");
+      try
+      {
+        DetectLanguageAction();
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine();
+        Console.WriteLine("Er heeft zich een onverwachte fout voorgedaan!");
+        Console.WriteLine();
+      }
+    }
+
+    private static void DetectLanguageAction()
+    {
+      var inValidAction = false;
+      do
+      {
+        Console.Write("Keuze: ");
+        var input = Console.ReadLine();
+        int action;
+        if (int.TryParse(input, out action))
+        {
+          switch (action)
+          {
+            case 1:
+              PrintAllTickets();
+              break;
+            case 2:
+              ActionShowTicketDetails();
+              break;
+            case 0:
+              quit = true;
+              return;
+            default:
+              Console.WriteLine("Geen geldige keuze!");
+              inValidAction = true;
+              break;
+          }
+        }
+      } while (inValidAction);
+    }
+
+    private static void ActionCloseTicket()
         {
             Console.Write("Ticketnummer: ");
             var input = int.Parse(Console.ReadLine());

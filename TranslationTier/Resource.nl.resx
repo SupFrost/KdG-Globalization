@@ -117,19 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TicketResponseNotValid" xml:space="preserve">
-    <value>TicketResponse not valid!</value>
+  <data name="dutch1" xml:space="preserve">
+    <value>Nederlands</value>
   </data>
-  <data name="HELPDESKSUPPORTCENTER" xml:space="preserve">
+  <data name="english1" xml:space="preserve">
+    <value>Engels</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Verlaten</value>
+  </data>
+  <data name="HELPDESKSUPPORTCENTER1" xml:space="preserve">
     <value>=== HELPDESK - SUPPORT CENTER ===</value>
   </data>
-  <data name="_1ShowAllTickets" xml:space="preserve">
-    <value>1) Toon alle tickets!</value>
+  <data name="Language1" xml:space="preserve">
+    <value>Taal</value>
   </data>
-  <data name="_2ShowDetailsOfATicket" xml:space="preserve">
-    <value>2) Show details of a ticket</value>
+  <data name="LanguageChoice1" xml:space="preserve">
+    <value>Kies u taal</value>
   </data>
-  <data name="Test" xml:space="preserve">
+  <data name="Test1" xml:space="preserve">
     <value>Nederlands</value>
+  </data>
+  <data name="TicketResponseNotValid1" xml:space="preserve">
+    <value>Ticket Reactie niet geldig!</value>
+  </data>
+  <data name="_1ShowAllTickets1" xml:space="preserve">
+    <value>1) Toon alle tickets</value>
+  </data>
+  <data name="_2ShowDetailsOfATicket1" xml:space="preserve">
+    <value>2) Toon details van een ticket</value>
   </data>
 </root>

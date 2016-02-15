@@ -79,6 +79,24 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dutch.
+        /// </summary>
+        public static string dutch {
+            get {
+                return ResourceManager.GetString("dutch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        public static string english {
+            get {
+                return ResourceManager.GetString("english", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Exit.
         /// </summary>
         public static string Exit {
@@ -102,6 +120,15 @@ namespace TranslationTier {
         public static string Language {
             get {
                 return ResourceManager.GetString("Language", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to choose your language.
+        /// </summary>
+        public static string LanguageChoice {
+            get {
+                return ResourceManager.GetString("LanguageChoice", resourceCulture);
             }
         }
         
