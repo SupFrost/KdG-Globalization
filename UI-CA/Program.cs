@@ -177,7 +177,7 @@ namespace SC.UI.CA
         {
             Console.WriteLine("{0,-15}: {1}", "Ticket", ticket.TicketNumber);
             Console.WriteLine("{0,-15}: {1}", "Gebruiker", ticket.AccountId);
-            Console.WriteLine("{0,-15}: {1}", "Datum", ticket.DateOpened.ToString("dd/MM/yyyy"));
+            Console.WriteLine("{0,-15}: {1}", "Datum", ticket.DateOpened.ToString(Thread.CurrentThread.CurrentUICulture.DateTimeFormat));
             Console.WriteLine("{0,-15}: {1}", "Status", ticket.State);
 
             if (ticket is HardwareTicket)
