@@ -171,8 +171,29 @@
   <data name="TicketNumber" xml:space="preserve">
     <value>Ticketnummer</value>
   </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Antwoord</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>annuleer</value>
+  </data>
   <data name="Date" xml:space="preserve">
     <value>Datum</value>
+  </data>
+  <data name="IsItAHardwareProblem" xml:space="preserve">
+    <value>Is het een hardware probleem (j/n)?</value>
+  </data>
+  <data name="Machine" xml:space="preserve">
+    <value>Toestel</value>
+  </data>
+  <data name="NameOfTheUnit" xml:space="preserve">
+    <value>Naam van het toestel</value>
+  </data>
+  <data name="Problem" xml:space="preserve">
+    <value>Probleem</value>
+  </data>
+  <data name="QuestionProblem" xml:space="preserve">
+    <value>Vraag/probleem</value>
   </data>
   <data name="State" xml:space="preserve">
     <value>Status</value>
@@ -182,5 +203,11 @@
   </data>
   <data name="User" xml:space="preserve">
     <value>Gebruiker</value>
+  </data>
+  <data name="UserNumber" xml:space="preserve">
+    <value>Gebruikersnummer</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value>j</value>
   </data>
 </root>

@@ -61,6 +61,24 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Answer.
+        /// </summary>
+        public static string Answer {
+            get {
+                return ResourceManager.GetString("Answer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to cancel.
+        /// </summary>
+        public static string cancel {
+            get {
+                return ResourceManager.GetString("cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Choice.
         /// </summary>
         public static string Choice {
@@ -133,6 +151,15 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Is it a hardware problem (y/n)?.
+        /// </summary>
+        public static string IsItAHardwareProblem {
+            get {
+                return ResourceManager.GetString("IsItAHardwareProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Language.
         /// </summary>
         public static string Language {
@@ -151,6 +178,15 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Machine.
+        /// </summary>
+        public static string Machine {
+            get {
+                return ResourceManager.GetString("Machine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mark ticket as &apos;closed&apos;.
         /// </summary>
         public static string MarkTicketAsClosed {
@@ -160,11 +196,38 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Name of the unit.
+        /// </summary>
+        public static string NameOfTheUnit {
+            get {
+                return ResourceManager.GetString("NameOfTheUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No a valid choice!.
         /// </summary>
         public static string NoAValidChoice {
             get {
                 return ResourceManager.GetString("NoAValidChoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Problem.
+        /// </summary>
+        public static string Problem {
+            get {
+                return ResourceManager.GetString("Problem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Question/Problem.
+        /// </summary>
+        public static string QuestionProblem {
+            get {
+                return ResourceManager.GetString("QuestionProblem", resourceCulture);
             }
         }
         
@@ -255,6 +318,24 @@ namespace TranslationTier {
         public static string User {
             get {
                 return ResourceManager.GetString("User", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User number.
+        /// </summary>
+        public static string UserNumber {
+            get {
+                return ResourceManager.GetString("UserNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to y.
+        /// </summary>
+        public static string Y {
+            get {
+                return ResourceManager.GetString("Y", resourceCulture);
             }
         }
     }

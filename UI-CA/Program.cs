@@ -177,14 +177,14 @@ namespace SC.UI.CA
       Console.WriteLine("{0,-15}: {1}", Resource.State, ticket.State);
 
       if (ticket is HardwareTicket)
-        Console.WriteLine("{0,-15}: {1}", "Toestel", ((HardwareTicket) ticket).DeviceName);
+        Console.WriteLine("{0,-15}: {1}", Resource.Machine, ((HardwareTicket) ticket).DeviceName);
 
-      Console.WriteLine("{0,-15}: {1}", "Vraag/probleem", ticket.Text);
+      Console.WriteLine("{0,-15}: {1}", Resource.QuestionProblem, ticket.Text);
     }
 
     private static void ActionShowTicketResponses()
     {
-      Console.Write("Ticketnummer: ");
+      Console.Write(Resource.TicketNumber + ": ");
       var input = int.Parse(Console.ReadLine());
 
       //IEnumerable<TicketResponse> responses = mgr.GetTicketResponses(input);
@@ -205,17 +205,17 @@ namespace SC.UI.CA
       var problem = "";
       var device = "";
 
-      Console.Write("Is het een hardware probleem (j/n)? ");
-      var isHardwareProblem = Console.ReadLine().ToLower() == "j";
+      Console.Write(Resource.IsItAHardwareProblem);
+      var isHardwareProblem = Console.ReadLine().ToLower() == Resource.Y;
       if (isHardwareProblem)
       {
-        Console.Write("Naam van het toestel: ");
+        Console.Write(Resource.NameOfTheUnit + ": ");
         device = Console.ReadLine();
       }
 
-      Console.Write("Gebruikersnummer: ");
+      Console.Write(Resource.UserNumber + ": ");
       accountNumber = int.Parse(Console.ReadLine());
-      Console.Write("Probleem: ");
+      Console.Write(Resource.Problem + ": ");
       problem = Console.ReadLine();
 
       if (!isHardwareProblem)
@@ -226,9 +226,9 @@ namespace SC.UI.CA
 
     private static void ActionAddResponseToTicket()
     {
-      Console.Write("Ticketnummer: ");
+      Console.Write(Resource.TicketNumber + ": ");
       var ticketNumber = int.Parse(Console.ReadLine());
-      Console.Write("Antwoord: ");
+      Console.Write(Resource.Answer + ": ");
       var response = Console.ReadLine();
 
       //mgr.AddTicketResponse(ticketNumber, response, false);
