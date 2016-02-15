@@ -171,19 +171,4 @@
   <data name="TicketNumber" xml:space="preserve">
     <value>Ticket number</value>
   </data>
-  <data name="cancel" xml:space="preserve">
-    <value>cancel</value>
-  </data>
-  <data name="Date" xml:space="preserve">
-    <value>Date</value>
-  </data>
-  <data name="State" xml:space="preserve">
-    <value>State</value>
-  </data>
-  <data name="Ticket" xml:space="preserve">
-    <value>Ticket</value>
-  </data>
-  <data name="User" xml:space="preserve">
-    <value>User</value>
-  </data>
 </root>

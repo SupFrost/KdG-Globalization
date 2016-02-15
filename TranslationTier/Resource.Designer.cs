@@ -259,11 +259,11 @@ namespace TranslationTier {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User.
+        ///   Looks up a localized string similar to Welcome at the online helpdesk system..
         /// </summary>
-        public static string User {
+        public static string WelcomeOnlineHelpDesk {
             get {
-                return ResourceManager.GetString("User", resourceCulture);
+                return ResourceManager.GetString("WelcomeOnlineHelpDesk", resourceCulture);
             }
         }
     }
