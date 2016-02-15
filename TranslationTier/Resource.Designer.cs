@@ -61,15 +61,6 @@ namespace TranslationTier {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to cancel.
-        /// </summary>
-        public static string cancel {
-            get {
-                return ResourceManager.GetString("cancel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Choice.
         /// </summary>
         public static string Choice {
@@ -259,11 +250,11 @@ namespace TranslationTier {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome at the online helpdesk system..
+        ///   Looks up a localized string similar to User.
         /// </summary>
-        public static string WelcomeOnlineHelpDesk {
+        public static string User {
             get {
-                return ResourceManager.GetString("WelcomeOnlineHelpDesk", resourceCulture);
+                return ResourceManager.GetString("User", resourceCulture);
             }
         }
     }
