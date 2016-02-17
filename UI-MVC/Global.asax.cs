@@ -66,6 +66,10 @@ namespace SC.UI.Web.MVC
             var cookie = httpRequestBase.Cookies[CookieName];
             if (cookie != null)
                 culture = cookie.Values[CookieLangEntry];
+            else
+            {
+                culture = HttpContext.Current.Request.UserLanguages?[0].ToLowerInvariant().Trim();
+            }
             return culture;
         }
 
