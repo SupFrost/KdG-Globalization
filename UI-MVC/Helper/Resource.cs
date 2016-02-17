@@ -7,12 +7,8 @@ namespace SC.UI.Web.MVC.Helper
 {
     public class Resource
     {
-        [Key, Column(Order = 0)]
         public string Culture { get; set; }
-
-        [Key, Column(Order = 1)]
         public string Name { get; set; }
-
         public string Value { get; set; }
 
         #region Helpers
