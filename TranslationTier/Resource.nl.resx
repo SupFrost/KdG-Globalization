@@ -210,4 +210,7 @@
   <data name="Y" xml:space="preserve">
     <value>j</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>© 2016 Nick Jores en Tim Steenbeke - Bescheiden programmeurs, werkte samen voor de globalisering in .Net.</value>
+  </data>
 </root>

@@ -61,6 +61,15 @@ namespace TranslationTier {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to © 2016 Nick Jorens and Tim Steenbeke - Humble programmers, teamed up for globalisation in .Net..
+        /// </summary>
+        public static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Answer.
         /// </summary>
         public static string Answer {

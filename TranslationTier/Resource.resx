@@ -210,4 +210,7 @@
   <data name="Y" xml:space="preserve">
     <value>y</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>© 2016 Nick Jorens and Tim Steenbeke - Humble programmers, teamed up for globalisation in .Net.</value>
+  </data>
 </root>
