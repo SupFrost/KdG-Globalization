@@ -12,7 +12,7 @@
 <div class="row">
     <div class="col-md-4">
         <h2>Nieuw ticket</h2>
-        <p>Maak een nieuw ticket aan in het systeem.</p>
+        <p>@Resource.GetPropertyValue("CreateANewTicket");</p>
         <p>
             <a class="btn btn-default" href="@Url.Action("Create", "Ticket")">Nieuw ticket</a>
         </p>
@@ -23,11 +23,11 @@
             Toont een lijst van alle bestaande tickets.
             @Resource.GetPropertyValue("Test");
         </p>
-        <p>@Html.ActionLink("Alle tickets", "Index", "Ticket", null, new {@class = "btn btn-default"})</p>
+        <p>@Html.ActionLink(Resource.GetPropertyValue("ShowAllTickets"), "Index", "Ticket", null, new {@class = "btn btn-default"})</p>
     </div>
     <div class="col-md-4">
         <h2>Toon ticket</h2>
-        <p>Geeft de details van één ticket.</p>
+        <p>@Resource.GetPropertyValue("ShowDetailsOfATicket");</p>
         <form action="/Ticket/Details" method="get" class="form-inline">
             <div class="form-group">
                 <label class="sr-only" form="id">Ticketnummer</label>
